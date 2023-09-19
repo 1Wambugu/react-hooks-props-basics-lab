@@ -1,7 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-
-import Home from "../components/Home";
+import Home from "../../components/Home"; // Corrected import path
 
 test("uses the 'name' and 'city' props to display the correct text", () => {
   render(<Home name="Liza" city="New York" color="firebrick" />);
